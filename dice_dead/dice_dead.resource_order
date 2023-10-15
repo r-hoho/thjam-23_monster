@@ -6,6 +6,7 @@
     {"name":"Object","order":12,"path":"folders/Object.yy",},
     {"name":"Sprite","order":13,"path":"folders/Sprite.yy",},
     {"name":"Arrow","order":8,"path":"folders/Object/Arrow.yy",},
+    {"name":"GameManager","order":14,"path":"folders/GameManager.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_ArrowParent","order":1,"path":"objects/obj_ArrowParent/obj_ArrowParent.yy",},
