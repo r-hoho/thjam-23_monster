@@ -1,7 +1,6 @@
-_Turn = "Player"
+global._Turn = "Player"
 
 qsignal_listen("End_Turn",function(){
 	
-	_Turn = "NPC";
-	
+	global._Turn = "NPC";
 });

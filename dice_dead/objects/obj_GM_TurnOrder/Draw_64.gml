@@ -1,1 +1,1 @@
-draw_text(1200,700,_Turn);
+draw_text(1200,700,global._Turn);
