@@ -12,4 +12,5 @@ _MoveMode.local_Dice = self;
 
 var _ShootMode = instance_create_layer(x,y,"Instances_Top",obj_DiceShootMode);
 _ShootMode.local_AP = dice_value;
+_ShootMode.local_Dice = self;
 

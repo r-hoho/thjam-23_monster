@@ -42,10 +42,12 @@ qsignal_listen("Shoot_Up",function() {
 	
 	instance_destroy(obj_LOSParent);
 	
+	
 	_bullet = instance_create_layer(x,y,"Instances_Player",obj_Bullet);
 	_bullet.image_angle = 0;
 	_bullet.target_x = x;
 	_bullet.target_y = y-500;
+	qsignal_emit("Shoot_End")
 });
 
 
@@ -57,6 +59,7 @@ qsignal_listen("Shoot_Down",function() {
 	_bullet.image_angle = 180;
 	_bullet.target_x = x;
 	_bullet.target_y = y+500;
+	qsignal_emit("Shoot_End")
 });
 
 qsignal_listen("Shoot_Left",function() {
@@ -67,6 +70,7 @@ qsignal_listen("Shoot_Left",function() {
 	_bullet.image_angle = 90;
 	_bullet.target_x = x-500;
 	_bullet.target_y = y;
+	qsignal_emit("Shoot_End")
 });
 
 qsignal_listen("Shoot_Right",function() {
@@ -77,6 +81,7 @@ qsignal_listen("Shoot_Right",function() {
 	_bullet.image_angle = 270;
 	_bullet.target_x = x+500;
 	_bullet.target_y = y;
+	qsignal_emit("Shoot_End")
 });
 
 

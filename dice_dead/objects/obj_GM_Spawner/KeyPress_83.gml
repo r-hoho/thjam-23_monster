@@ -1,1 +1,1 @@
-qsignal_emit("shoot_mode");
+//qsignal_emit("shoot_mode");

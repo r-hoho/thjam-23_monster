@@ -1,1 +1,1 @@
-qsignal_emit("move_arrow_create");
+//qsignal_emit("move_arrow_create");

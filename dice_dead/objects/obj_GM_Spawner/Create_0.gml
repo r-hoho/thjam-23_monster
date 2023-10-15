@@ -7,7 +7,7 @@ qsignal_listen("Move_Arrow_Create",function() {
 	
 });
 
-qsignal_listen("shoot_mode",function() {
+qsignal_listen("Shoot_LOS_Create",function() {
 	
     instance_create_layer(obj_Player_v2.x,obj_Player_v2.y+16,"Instances_Player",obj_LOSDown);
 	instance_create_layer(obj_Player_v2.x,obj_Player_v2.y-16,"Instances_Player",obj_LOSUp);
