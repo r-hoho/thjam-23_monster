@@ -1,1 +1,1 @@
-qsignal_emit("move_mode");
+qsignal_emit("move_arrow_create");
