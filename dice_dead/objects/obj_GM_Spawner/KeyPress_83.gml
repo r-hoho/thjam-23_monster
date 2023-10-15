@@ -1,0 +1,1 @@
+qsignal_emit("shoot_mode");

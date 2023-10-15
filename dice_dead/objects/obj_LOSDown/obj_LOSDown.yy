@@ -1,18 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_GM_ArrowSpawn",
+  "name": "obj_LOSDown",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":32,"eventType":9,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "GameManager",
-    "path": "folders/GameManager.yy",
+    "name": "LOS",
+    "path": "folders/Object/LOS.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_LOSParent",
+    "path": "objects/obj_LOSParent/obj_LOSParent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Arrow",
-    "path": "sprites/spr_Arrow/spr_Arrow.yy",
+    "name": "spr_LOS",
+    "path": "sprites/spr_LOS/spr_LOS.yy",
   },
   "spriteMaskId": null,
   "visible": true,
