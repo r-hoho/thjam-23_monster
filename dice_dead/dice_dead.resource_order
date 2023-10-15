@@ -8,12 +8,15 @@
     {"name":"Arrow","order":5,"path":"folders/Object/Arrow.yy",},
     {"name":"GameManager","order":14,"path":"folders/GameManager.yy",},
     {"name":"LOS","order":6,"path":"folders/Object/LOS.yy",},
+    {"name":"Dice","order":9,"path":"folders/Object/Dice.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"spr_Dice","order":8,"path":"sprites/spr_Dice/spr_Dice.yy",},
     {"name":"obj_ArrowParent","order":1,"path":"objects/obj_ArrowParent/obj_ArrowParent.yy",},
     {"name":"obj_LOSUp","order":1,"path":"objects/obj_LOSUp/obj_LOSUp.yy",},
     {"name":"obj_LOSDown","order":2,"path":"objects/obj_LOSDown/obj_LOSDown.yy",},
     {"name":"spr_LOS","order":5,"path":"sprites/spr_LOS/spr_LOS.yy",},
+    {"name":"spr_UI_DiceTray","order":9,"path":"sprites/spr_UI_DiceTray/spr_UI_DiceTray.yy",},
     {"name":"spr_Zombie_Dead","order":7,"path":"sprites/spr_Zombie_Dead/spr_Zombie_Dead.yy",},
     {"name":"obj_Player_v2","order":1,"path":"objects/obj_Player_v2/obj_Player_v2.yy",},
     {"name":"obj_Wall","order":3,"path":"objects/obj_Wall/obj_Wall.yy",},
@@ -32,5 +35,6 @@
     {"name":"spr_Zombie","order":3,"path":"sprites/spr_Zombie/spr_Zombie.yy",},
     {"name":"spr_Bullet","order":6,"path":"sprites/spr_Bullet/spr_Bullet.yy",},
     {"name":"spr_UI_side","order":1,"path":"sprites/spr_UI_side/spr_UI_side.yy",},
+    {"name":"obj_DiceTray","order":1,"path":"objects/obj_DiceTray/obj_DiceTray.yy",},
   ],
 }
