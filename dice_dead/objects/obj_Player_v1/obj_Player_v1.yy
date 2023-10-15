@@ -15,8 +15,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "dice_dead",
-    "path": "dice_dead.yyp",
+    "name": "Object",
+    "path": "folders/Object.yy",
   },
   "parentObjectId": null,
   "persistent": false,

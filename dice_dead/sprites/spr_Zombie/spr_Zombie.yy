@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "dice_dead",
-    "path": "dice_dead.yyp",
+    "name": "Sprite",
+    "path": "folders/Sprite.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

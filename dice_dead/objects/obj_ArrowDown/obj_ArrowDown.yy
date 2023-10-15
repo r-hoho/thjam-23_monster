@@ -1,15 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_UI_Side",
-  "eventList": [],
+  "name": "obj_ArrowDown",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Object",
-    "path": "folders/Object.yy",
+    "name": "Arrow",
+    "path": "folders/Object/Arrow.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_ArrowParent",
+    "path": "objects/obj_ArrowParent/obj_ArrowParent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -26,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_UI_side",
-    "path": "sprites/spr_UI_side/spr_UI_side.yy",
+    "name": "spr_Arrow",
+    "path": "sprites/spr_Arrow/spr_Arrow.yy",
   },
   "spriteMaskId": null,
   "visible": true,
