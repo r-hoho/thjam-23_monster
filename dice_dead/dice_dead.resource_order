@@ -2,12 +2,13 @@
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
     {"name":"spr_Player","order":1,"path":"sprites/spr_Player/spr_Player.yy",},
+    {"name":"obj_Player_v2","order":9,"path":"objects/obj_Player_v2/obj_Player_v2.yy",},
     {"name":"obj_Wall","order":6,"path":"objects/obj_Wall/obj_Wall.yy",},
     {"name":"spr_Wall","order":5,"path":"sprites/spr_Wall/spr_Wall.yy",},
     {"name":"obj_Zombie","order":8,"path":"objects/obj_Zombie/obj_Zombie.yy",},
     {"name":"obj_UI_Side","order":4,"path":"objects/obj_UI_Side/obj_UI_Side.yy",},
     {"name":"spr_Zombie","order":7,"path":"sprites/spr_Zombie/spr_Zombie.yy",},
     {"name":"spr_UI_side","order":3,"path":"sprites/spr_UI_side/spr_UI_side.yy",},
-    {"name":"obj_Player","order":2,"path":"objects/obj_Player/obj_Player.yy",},
+    {"name":"obj_Player_v1","order":2,"path":"objects/obj_Player_v1/obj_Player_v1.yy",},
   ],
 }
