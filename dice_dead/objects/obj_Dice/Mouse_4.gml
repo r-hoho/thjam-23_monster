@@ -4,5 +4,11 @@ instance_destroy(obj_DiceShootMode);
 
 
 instance_create_layer(x,y,"Instances_Top",obj_DiceSelectMode);
-instance_create_layer(x,y,"Instances_Top",obj_DiceMoveMode);
-instance_create_layer(x,y,"Instances_Top",obj_DiceShootMode);
+
+var _MoveMode = instance_create_layer(x,y,"Instances_Top",obj_DiceMoveMode);
+_MoveMode.local_AP = dice_value;
+
+
+var _ShootMode = instance_create_layer(x,y,"Instances_Top",obj_DiceShootMode);
+_ShootMode.local_AP = dice_value;
+

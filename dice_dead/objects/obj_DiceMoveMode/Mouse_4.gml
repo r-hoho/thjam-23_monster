@@ -1,0 +1,1 @@
+obj_GM_AP.Move_AP = local_AP;

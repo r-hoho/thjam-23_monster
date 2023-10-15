@@ -54,6 +54,7 @@
     {"id":{"name":"obj_Zombie","path":"objects/obj_Zombie/obj_Zombie.yy",},},
     {"id":{"name":"obj_LOSRight","path":"objects/obj_LOSRight/obj_LOSRight.yy",},},
     {"id":{"name":"obj_DiceSelectMode","path":"objects/obj_DiceSelectMode/obj_DiceSelectMode.yy",},},
+    {"id":{"name":"obj_GM_AP","path":"objects/obj_GM_AP/obj_GM_AP.yy",},},
     {"id":{"name":"__qsignals_manager_class","path":"scripts/__qsignals_manager_class/__qsignals_manager_class.yy",},},
     {"id":{"name":"obj_ArrowDown","path":"objects/obj_ArrowDown/obj_ArrowDown.yy",},},
     {"id":{"name":"obj_UI_Side","path":"objects/obj_UI_Side/obj_UI_Side.yy",},},

@@ -34,6 +34,7 @@
     {"name":"obj_Zombie","order":4,"path":"objects/obj_Zombie/obj_Zombie.yy",},
     {"name":"obj_LOSRight","order":4,"path":"objects/obj_LOSRight/obj_LOSRight.yy",},
     {"name":"obj_DiceSelectMode","order":2,"path":"objects/obj_DiceSelectMode/obj_DiceSelectMode.yy",},
+    {"name":"obj_GM_AP","order":2,"path":"objects/obj_GM_AP/obj_GM_AP.yy",},
     {"name":"__qsignals_manager_class","order":1,"path":"scripts/__qsignals_manager_class/__qsignals_manager_class.yy",},
     {"name":"obj_UI_Side","order":2,"path":"objects/obj_UI_Side/obj_UI_Side.yy",},
     {"name":"spr_Arrow","order":4,"path":"sprites/spr_Arrow/spr_Arrow.yy",},
