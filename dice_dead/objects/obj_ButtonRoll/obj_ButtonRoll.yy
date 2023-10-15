@@ -1,13 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Zombie_Dead",
-  "eventList": [],
+  "name": "obj_ButtonRoll",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Character",
-    "path": "folders/Object/Character.yy",
+    "name": "UI",
+    "path": "folders/Object/UI.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Zombie_Dead",
-    "path": "sprites/spr_Zombie_Dead/spr_Zombie_Dead.yy",
+    "name": "spr_Button",
+    "path": "sprites/spr_Button/spr_Button.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -1,0 +1,2 @@
+qsignal_emit("DiceRoll");
+
