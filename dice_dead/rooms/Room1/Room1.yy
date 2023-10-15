@@ -75,6 +75,7 @@
     {"name":"inst_261302D1","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_30B0199","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_4897ADBB","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_42BDD807","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -89,6 +90,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5F1FD04E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_GM_AP","path":"objects/obj_GM_AP/obj_GM_AP.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-53.0,"y":2.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_30B0199","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_GM_Init","path":"objects/obj_GM_Init/obj_GM_Init.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-50.0,"y":25.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4897ADBB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_GM_Ammo","path":"objects/obj_GM_Ammo/obj_GM_Ammo.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-45.0,"y":47.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_42BDD807","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_GM_TurnOrder","path":"objects/obj_GM_TurnOrder/obj_GM_TurnOrder.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":322.0,"y":162.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_Player","depth":300,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_55E128F2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_Zombie","path":"objects/obj_Zombie/obj_Zombie.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":64.0,},
