@@ -1,10 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Zombie",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_Bullet","path":"objects/obj_Bullet/obj_Bullet.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-  ],
+  "name": "obj_Zombie_Dead",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -28,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Zombie",
-    "path": "sprites/spr_Zombie/spr_Zombie.yy",
+    "name": "spr_Zombie_Dead",
+    "path": "sprites/spr_Zombie_Dead/spr_Zombie_Dead.yy",
   },
   "spriteMaskId": null,
   "visible": true,
