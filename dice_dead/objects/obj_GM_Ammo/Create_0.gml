@@ -1,0 +1,1 @@
+global.ammo = 0;
