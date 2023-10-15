@@ -20,6 +20,7 @@
     {"name":"obj_LOSDown","order":2,"path":"objects/obj_LOSDown/obj_LOSDown.yy",},
     {"name":"spr_DiceHighLight","order":1,"path":"sprites/spr_DiceHighLight/spr_DiceHighLight.yy",},
     {"name":"obj_DiceHighLight","order":3,"path":"objects/obj_DiceHighLight/obj_DiceHighLight.yy",},
+    {"name":"obj_ButtonEndManual","order":2,"path":"objects/obj_ButtonEndManual/obj_ButtonEndManual.yy",},
     {"name":"spr_LOS","order":5,"path":"sprites/spr_LOS/spr_LOS.yy",},
     {"name":"spr_Zombie_Dead","order":7,"path":"sprites/spr_Zombie_Dead/spr_Zombie_Dead.yy",},
     {"name":"obj_Player_v2","order":1,"path":"objects/obj_Player_v2/obj_Player_v2.yy",},

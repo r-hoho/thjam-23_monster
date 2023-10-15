@@ -41,6 +41,7 @@
     {"id":{"name":"obj_LOSDown","path":"objects/obj_LOSDown/obj_LOSDown.yy",},},
     {"id":{"name":"spr_DiceHighLight","path":"sprites/spr_DiceHighLight/spr_DiceHighLight.yy",},},
     {"id":{"name":"obj_DiceHighLight","path":"objects/obj_DiceHighLight/obj_DiceHighLight.yy",},},
+    {"id":{"name":"obj_ButtonEndManual","path":"objects/obj_ButtonEndManual/obj_ButtonEndManual.yy",},},
     {"id":{"name":"spr_LOS","path":"sprites/spr_LOS/spr_LOS.yy",},},
     {"id":{"name":"spr_UI_DiceTray","path":"sprites/spr_UI_DiceTray/spr_UI_DiceTray.yy",},},
     {"id":{"name":"spr_Zombie_Dead","path":"sprites/spr_Zombie_Dead/spr_Zombie_Dead.yy",},},
