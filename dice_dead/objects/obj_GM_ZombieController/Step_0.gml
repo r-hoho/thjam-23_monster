@@ -17,7 +17,7 @@ if (global._Turn == "NPC") {
 		if position_meeting(_right.x,_right.y,obj_Wall) { instance_destroy(_right); show_debug_message(3)}
 		if position_meeting(_left.x,_left.y,obj_Wall) { instance_destroy(_left); show_debug_message(4)}
 		
-		
+		instance_destroy(obj_WallGhost);
 		
 		//show_debug_message("instance_number"+string(instance_number(obj_ArrowParent)));
 		
@@ -41,10 +41,12 @@ if (global._Turn == "NPC") {
 		show_debug_message("No target objects found.");
 		}
 		
+		if (closestObject != noone) {
 		instance_create_layer(currentInstance.x,currentInstance.y,"Instances_wall",obj_WallGhost);
 		currentInstance.x = closestObject.x
 		currentInstance.y = closestObject.y
 		instance_destroy(obj_ArrowParent);
+		}
 		
 	}
 
