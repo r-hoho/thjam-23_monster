@@ -46,6 +46,7 @@
     {"id":{"name":"obj_ButtonEndManual","path":"objects/obj_ButtonEndManual/obj_ButtonEndManual.yy",},},
     {"id":{"name":"spr_LOS","path":"sprites/spr_LOS/spr_LOS.yy",},},
     {"id":{"name":"spr_UI_DiceTray","path":"sprites/spr_UI_DiceTray/spr_UI_DiceTray.yy",},},
+    {"id":{"name":"obj_DiceAP","path":"objects/obj_DiceAP/obj_DiceAP.yy",},},
     {"id":{"name":"spr_WallGhost","path":"sprites/spr_WallGhost/spr_WallGhost.yy",},},
     {"id":{"name":"spr_Zombie_Dead","path":"sprites/spr_Zombie_Dead/spr_Zombie_Dead.yy",},},
     {"id":{"name":"obj_Player_v2","path":"objects/obj_Player_v2/obj_Player_v2.yy",},},
