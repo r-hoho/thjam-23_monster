@@ -8,19 +8,18 @@ if (global._Turn == "NPC") {
 
 	
 		var _down = instance_create_layer(currentInstance.x,currentInstance.y+16,"Instances_Player",obj_ArrowDown);
-		if (position_meeting(_down.x,_down.y,obj_Wall) == true) {instance_destroy(_down)}
-		
 		var _up = instance_create_layer(currentInstance.x,currentInstance.y-16,"Instances_Player",obj_ArrowUp);
-		if position_meeting(_up.x,_up.y,obj_Wall) { instance_destroy(_up)}
-		
 		var _right = instance_create_layer(currentInstance.x+16,currentInstance.y,"Instances_Player",obj_ArrowRight);
-		if position_meeting(_right.x,_right.y,obj_Wall) { instance_destroy(_right)}
-		
 		var _left = instance_create_layer(currentInstance.x-16,currentInstance.y,"Instances_Player",obj_ArrowLeft);
-		if position_meeting(_left.x,_left.y,obj_Wall) { instance_destroy(_left)}
+		
+		if position_meeting(_down.x,_down.y,obj_Wall) {instance_destroy(_down); show_debug_message(1)}
+		if position_meeting(_up.x,_up.y,obj_Wall) { instance_destroy(_up); show_debug_message(2)}
+		if position_meeting(_right.x,_right.y,obj_Wall) { instance_destroy(_right); show_debug_message(3)}
+		if position_meeting(_left.x,_left.y,obj_Wall) { instance_destroy(_left); show_debug_message(4)}
 		
 		
-		show_debug_message(instance_number(obj_ArrowParent));
+		
+		//show_debug_message("instance_number"+string(instance_number(obj_ArrowParent)));
 		
 		var minDistance = -1;
 		var closestObject = noone;
