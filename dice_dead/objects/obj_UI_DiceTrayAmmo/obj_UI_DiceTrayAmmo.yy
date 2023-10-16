@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_DiceTray",
+  "name": "obj_UI_DiceTrayAmmo",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_UI_DiceTray",
-    "path": "sprites/spr_UI_DiceTray/spr_UI_DiceTray.yy",
+    "name": "spr_UI_DiceTrayAmmo",
+    "path": "sprites/spr_UI_DiceTrayAmmo/spr_UI_DiceTrayAmmo.yy",
   },
   "spriteMaskId": null,
   "visible": true,
