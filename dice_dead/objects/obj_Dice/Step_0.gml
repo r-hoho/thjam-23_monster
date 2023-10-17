@@ -30,8 +30,34 @@ if (dice_moving == 1) {
 		_dice.image_index = obj_GM_AP.Move_AP -1;
 		_dice.image_xscale = 1.9;
 		_dice.image_yscale = 1.9;
-		
-    // Additional actions can be added here when the object is within the tolerance range of the target position
 	}
+}
+
+if (dice_moving == 2) {
+
+	// Initialize the trajectory variables
+	var startX = x; // initial x-coordinate
+	var startY = y; // initial y-coordinate
+	var endX = obj_Player_v2.x; // final x-coordinate
+	var endY = obj_Player_v2.y; // final y-coordinate
+	
+	speed = 0.1; // adjust the speed as needed
+	var tolerance = 1; // adjust the tolerance value as needed
+
+
+	// Use the lerp function to update the position gradually
+	x = lerp(startX, endX, speed);
+	y = lerp(startY, endY, speed);
+
+	
+	// Check if the object is within the tolerance range of the target position
+	if (abs(x - endX) <= tolerance && abs(y - endY) <= tolerance) {
+		instance_destroy();
+		
+		
+	}
+
+
+
 }
 

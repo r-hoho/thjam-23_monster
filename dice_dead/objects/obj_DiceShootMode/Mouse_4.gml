@@ -7,10 +7,12 @@ if (global.ammo == 0) {
 
 if (global.ammo >= 1) {
 
-	obj_GM_AP.Shoot_AP = local_AP;
+	obj_GM_AP.Shoot_AP = 1;
 	qsignal_emit("Shoot_Mode_Select")
+	
+	local_Dice.dice_moving = 2;
 
-	instance_destroy(local_Dice);
+	//instance_destroy(local_Dice);
 	instance_destroy(obj_DiceMoveMode);
 	instance_destroy(obj_DiceShootMode);
 	instance_destroy(obj_DiceSelectMode);
