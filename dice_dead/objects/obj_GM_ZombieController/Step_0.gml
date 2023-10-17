@@ -76,7 +76,9 @@ if (global._Turn == "NPC") {
 			}
 			
 			global._Turn = "Player"
-			instance_create_layer(272,104,"Instances_Dice",obj_ButtonRoll);
+			var _roll = instance_create_layer(272,104,"Instances_Dice",obj_ButtonRoll);
+			_roll.image_xscale = 3
+			_roll.image_yscale = 2.5
 			current_zombie = 1;
 			
 			

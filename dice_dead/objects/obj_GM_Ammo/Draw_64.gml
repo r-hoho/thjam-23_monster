@@ -1,1 +1,0 @@
-draw_text(1000,600,"Ammo: "+string(global.ammo)+"/6");
