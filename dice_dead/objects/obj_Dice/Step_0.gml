@@ -96,3 +96,23 @@ if (dice_moving == 3) { //RELOAD MODE
 	}
 
 }
+	
+if (dice_moving == 0 ) { //Rolling Mode
+	
+	// Initialize the trajectory variables
+	var startX = x; // initial x-coordinate
+	var startY = y; // initial y-coordinate
+	var endX = lerp_target_x; // final x-coordinate
+	var endY = lerp_target_y; // final y-coordinate
+	
+	speed = 0.1; // adjust the speed as needed
+
+
+	// Use the lerp function to update the position gradually
+	x = lerp(startX, endX, speed);
+	y = lerp(startY, endY, speed);
+	
+	
+	
+	
+}
