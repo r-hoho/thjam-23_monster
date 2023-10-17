@@ -57,6 +57,7 @@
     {"id":{"name":"obj_GM_Init","path":"objects/obj_GM_Init/obj_GM_Init.yy",},},
     {"id":{"name":"obj_Bullet","path":"objects/obj_Bullet/obj_Bullet.yy",},},
     {"id":{"name":"spr_Wall","path":"sprites/spr_Wall/spr_Wall.yy",},},
+    {"id":{"name":"obj_DiceAmmo","path":"objects/obj_DiceAmmo/obj_DiceAmmo.yy",},},
     {"id":{"name":"obj_DiceShootMode","path":"objects/obj_DiceShootMode/obj_DiceShootMode.yy",},},
     {"id":{"name":"obj_ArrowRight","path":"objects/obj_ArrowRight/obj_ArrowRight.yy",},},
     {"id":{"name":"spr_DiceSelectMode","path":"sprites/spr_DiceSelectMode/spr_DiceSelectMode.yy",},},
