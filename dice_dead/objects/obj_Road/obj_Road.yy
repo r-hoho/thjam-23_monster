@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_WallGhost",
+  "name": "obj_Road",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
@@ -11,10 +11,7 @@
     "name": "Object",
     "path": "folders/Object.yy",
   },
-  "parentObjectId": {
-    "name": "obj_Wall",
-    "path": "objects/obj_Wall/obj_Wall.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -31,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_WallGhost",
-    "path": "sprites/spr_WallGhost/spr_WallGhost.yy",
+    "name": "spr_Road",
+    "path": "sprites/spr_Road/spr_Road.yy",
   },
   "spriteMaskId": null,
   "visible": true,
