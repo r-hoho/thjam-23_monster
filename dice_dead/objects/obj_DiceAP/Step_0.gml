@@ -7,3 +7,4 @@ if (obj_GM_AP.Move_AP <= 0) {
 	instance_destroy()
 	
 }
+
