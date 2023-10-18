@@ -1,6 +1,6 @@
 if (global._Turn == "NPC") {
 	
-	if (timer >= 15) {
+	if (timer >= 20) {
 
 		// Replace "obj_example" with the name of your object
 		var totalInstances = instance_number(obj_Zombie);
@@ -48,8 +48,10 @@ if (global._Turn == "NPC") {
 		
 				if (closestObject != noone) {
 				instance_create_layer(currentInstance.x,currentInstance.y,"Instances_wall",obj_WallGhost);
-				currentInstance.x = closestObject.x
-				currentInstance.y = closestObject.y
+				
+				currentInstance._moving = 1;
+				currentInstance._movingX = closestObject.x
+				currentInstance._movingY = closestObject.y
 				instance_destroy(obj_ArrowParent);
 				}
 			
