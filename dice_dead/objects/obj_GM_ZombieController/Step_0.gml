@@ -1,5 +1,7 @@
 if (global._Turn == "NPC") {
 	
+	instance_destroy(obj_ButtonEndManual);
+	
 	if (timer >= 20) {
 
 		// Replace "obj_example" with the name of your object
