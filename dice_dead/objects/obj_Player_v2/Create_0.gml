@@ -1,35 +1,48 @@
+_moving = 0;
+_movingX = 0;
+_movingY = 0;
+
 #region Movement Signal
 
 qsignal_listen("Move_Right",function() {
 	
-	x = x+16;
+	_movingX = x+16;
+	_movingY = y;
+	_moving = 1;
+	
 	instance_destroy(obj_ArrowParent);
-	qsignal_emit("Move_End")
+	//qsignal_emit("Move_End")
 	
 
 });
 
 qsignal_listen("Move_Left",function() {
 	
-	x = x-16;
+	_movingX = x-16;
+	_movingY = y;
+	_moving = 1;
 	instance_destroy(obj_ArrowParent);
-	qsignal_emit("Move_End")
+	//qsignal_emit("Move_End")
 
 });
 
 qsignal_listen("Move_Up",function() {
 	
-	y = y-16;
+	_movingX = x;
+	_movingY = y-16;
+    _moving = 1;
 	instance_destroy(obj_ArrowParent);
-	qsignal_emit("Move_End")
+	//qsignal_emit("Move_End")
 
 });
 
 qsignal_listen("Move_Down",function() {
 	
-	y = y+16;
+	_movingX = x;
+	_movingY = y+16;
+    _moving = 1;
 	instance_destroy(obj_ArrowParent);
-	qsignal_emit("Move_End")
+	//qsignal_emit("Move_End")
 
 });
 
