@@ -79,7 +79,7 @@ qsignal_listen("Shoot_Left",function() {
 	
 	instance_destroy(obj_LOSParent);
 	
-	_bullet = instance_create_layer(x,y,"Instances_Player",obj_Bullet);
+	_bullet = instance_create_layer(x,y-2,"Instances_Player",obj_Bullet);
 	_bullet.image_angle = 90;
 	_bullet.target_x = x-500;
 	_bullet.target_y = y;
@@ -90,7 +90,7 @@ qsignal_listen("Shoot_Right",function() {
 	
 	instance_destroy(obj_LOSParent);
 	
-	_bullet = instance_create_layer(x,y,"Instances_Player",obj_Bullet);
+	_bullet = instance_create_layer(x,y-2,"Instances_Player",obj_Bullet);
 	_bullet.image_angle = 270;
 	_bullet.target_x = x+500;
 	_bullet.target_y = y;

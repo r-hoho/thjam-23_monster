@@ -14,5 +14,9 @@ var objPlayerY = y;
 var drawGUI_X = (viewportWidth / roomWidth) * objPlayerX;
 var drawGUI_Y = (viewportHeight / roomHeight) * objPlayerY;
 
-draw_set_font(fn_m6_16);
-draw_text(drawGUI_X+10, drawGUI_Y+20,"AP: "+string(zombie_AP));
+if (_drawAP == 1) {
+
+	draw_set_font(fn_m6_16);
+	draw_text(drawGUI_X+10, drawGUI_Y+20,"AP: "+string(zombie_AP));
+	
+}

@@ -26,3 +26,17 @@ if (_moving == 1) {
 
 	}
 }
+
+
+if (_countdown = 1) {
+	
+	_gameEnd += 1;
+	
+	if (_gameEnd >= 60) {room_goto(rm_End)}
+	
+}
+
+
+
+
+
