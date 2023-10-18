@@ -5,6 +5,7 @@ instance_destroy(obj_DiceReloadMode);
 
 
 instance_create_layer(x,y,"Instances_Top",obj_DiceSelectMode);
+audio_play_sound(snd_ClickDice,1,0);
 
 var _MoveMode = instance_create_layer(x,y,"Instances_Top",obj_DiceMoveMode);
 _MoveMode.local_AP = dice_value;

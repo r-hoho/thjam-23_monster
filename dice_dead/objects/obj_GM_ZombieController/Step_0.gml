@@ -52,6 +52,7 @@ if (global._Turn == "NPC") {
 				currentInstance._moving = 1;
 				currentInstance._movingX = closestObject.x
 				currentInstance._movingY = closestObject.y
+				audio_play_sound(snd_PlayerJump,1,0);
 				instance_destroy(obj_ArrowParent);
 				}
 			

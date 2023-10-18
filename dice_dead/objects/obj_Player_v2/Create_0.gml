@@ -9,6 +9,7 @@ qsignal_listen("Move_Right",function() {
 	_movingX = x+16;
 	_movingY = y;
 	_moving = 1;
+	audio_play_sound(snd_PlayerJump,1,0);
 	
 	instance_destroy(obj_ArrowParent);
 	//qsignal_emit("Move_End")
@@ -21,6 +22,8 @@ qsignal_listen("Move_Left",function() {
 	_movingX = x-16;
 	_movingY = y;
 	_moving = 1;
+	audio_play_sound(snd_PlayerJump,1,0);
+	
 	instance_destroy(obj_ArrowParent);
 	//qsignal_emit("Move_End")
 
@@ -31,6 +34,8 @@ qsignal_listen("Move_Up",function() {
 	_movingX = x;
 	_movingY = y-16;
     _moving = 1;
+	audio_play_sound(snd_PlayerJump,1,0);
+	
 	instance_destroy(obj_ArrowParent);
 	//qsignal_emit("Move_End")
 
@@ -41,6 +46,8 @@ qsignal_listen("Move_Down",function() {
 	_movingX = x;
 	_movingY = y+16;
     _moving = 1;
+	audio_play_sound(snd_PlayerJump,1,0);
+	
 	instance_destroy(obj_ArrowParent);
 	//qsignal_emit("Move_End")
 
@@ -56,6 +63,7 @@ qsignal_listen("Shoot_Up",function() {
 	instance_destroy(obj_LOSParent);
 	
 	
+	audio_play_sound(snd_Shoot,1,0);
 	_bullet = instance_create_layer(x,y,"Instances_Player",obj_Bullet);
 	_bullet.image_angle = 0;
 	_bullet.target_x = x;
@@ -68,6 +76,7 @@ qsignal_listen("Shoot_Down",function() {
 	
 	instance_destroy(obj_LOSParent);
 	
+	audio_play_sound(snd_Shoot,1,0);
 	_bullet = instance_create_layer(x,y,"Instances_Player",obj_Bullet);
 	_bullet.image_angle = 180;
 	_bullet.target_x = x;
@@ -79,6 +88,7 @@ qsignal_listen("Shoot_Left",function() {
 	
 	instance_destroy(obj_LOSParent);
 	
+	audio_play_sound(snd_Shoot,1,0);
 	_bullet = instance_create_layer(x,y-2,"Instances_Player",obj_Bullet);
 	_bullet.image_angle = 90;
 	_bullet.target_x = x-500;
@@ -90,6 +100,7 @@ qsignal_listen("Shoot_Right",function() {
 	
 	instance_destroy(obj_LOSParent);
 	
+	audio_play_sound(snd_Shoot,1,0);
 	_bullet = instance_create_layer(x,y-2,"Instances_Player",obj_Bullet);
 	_bullet.image_angle = 270;
 	_bullet.target_x = x+500;

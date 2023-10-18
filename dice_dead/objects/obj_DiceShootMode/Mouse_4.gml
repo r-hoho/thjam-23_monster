@@ -1,4 +1,5 @@
 if (global.ammo == 0) {
+	audio_play_sound(snd_NoAmmo,1,0);
 	var _noammo = instance_create_layer(x+35,y,"Instances_Top",obj_NoAmmo);
 	_noammo.depth = -1;
 	
@@ -9,6 +10,7 @@ if (global.ammo >= 1) {
 
 	obj_GM_AP.Shoot_AP = 1;
 	qsignal_emit("Shoot_Mode_Select")
+	audio_play_sound(snd_ChooseShoot,1,0);
 	
 	local_Dice.dice_moving = 2;
 

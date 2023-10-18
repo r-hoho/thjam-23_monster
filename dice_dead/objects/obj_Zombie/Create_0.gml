@@ -9,3 +9,8 @@ _drawAP = 1;
 _countdown = 0;
 _gameEnd = 0;
 
+qsignal_listen("PlayDeadSound", function(){
+	
+	audio_play_sound(snd_ZombieTurn,1,0);
+	
+});
