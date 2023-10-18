@@ -48,6 +48,14 @@ if (dice_moving == 2) { //SHOOT MODE
 	// Use the lerp function to update the position gradually
 	x = lerp(startX, endX, speed);
 	y = lerp(startY, endY, speed);
+	
+	// Set the initial and final scale values
+	var startScale = 1; // initial scale value
+	var endScale = -5; // final scale value
+
+	// Use the lerp function to update the scale gradually
+	image_xscale = lerp(startScale, endScale, speed);
+	image_yscale = lerp(startScale, endScale, speed);
 
 	
 	// Check if the object is within the tolerance range of the target position

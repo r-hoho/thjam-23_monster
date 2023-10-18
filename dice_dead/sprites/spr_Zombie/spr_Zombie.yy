@@ -5,7 +5,7 @@
   "bbox_bottom": 13,
   "bbox_left": 4,
   "bbox_right": 11,
-  "bbox_top": 3,
+  "bbox_top": 1,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"32344167-ac7e-48db-a3ec-a947d850bde1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"12aca378-863b-48fd-bf6f-d205c532f187",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 16,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7d649d87-c07f-4491-b8af-40df9765c0a3","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"90c8ac75-fc31-4df5-8011-e3f52c9c1121","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"32344167-ac7e-48db-a3ec-a947d850bde1","path":"sprites/spr_Zombie/spr_Zombie.yy",},},},"Disabled":false,"id":"23b0f596-701d-45b0-8e5a-a01c2bf95797","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"12aca378-863b-48fd-bf6f-d205c532f187","path":"sprites/spr_Zombie/spr_Zombie.yy",},},},"Disabled":false,"id":"9da2560c-b303-4181-83fe-2586a66ebcdb","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

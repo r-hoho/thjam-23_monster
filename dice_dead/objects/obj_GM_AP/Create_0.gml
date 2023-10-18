@@ -34,6 +34,7 @@ qsignal_listen("Shoot_End",function(){
 	Shoot_AP -= 1;
 	qsignal_emit("AMMOFaceChange");
 	
+	
 	if (Shoot_AP >= 1 && global.ammo >= 1) {
 		qsignal_emit("Shoot_LOS_Create")
 	} else { 

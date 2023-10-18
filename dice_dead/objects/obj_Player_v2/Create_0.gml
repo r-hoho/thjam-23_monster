@@ -86,3 +86,17 @@ qsignal_listen("Shoot_Right",function() {
 
 
 #endregion
+
+
+qsignal_listen("Shoot_Mode_Select",function(){
+	
+	sprite_index = spr_PlayerShoot;
+	image_speed = 1;
+});
+
+qsignal_listen("Shoot_End",function(){
+	
+	sprite_index = spr_Player;
+	
+	
+});
